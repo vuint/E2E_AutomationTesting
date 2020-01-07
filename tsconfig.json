@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "outDir": "./javaScript",
+    "sourceMap": true,
+    "declaration": false,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "target": "es6",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules"
+    ],
+    "types": [
+      "node",
+      "protractor",
+      "cucumber"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "javaScript"
+  ],
+  "compileOnSave": false
+}
