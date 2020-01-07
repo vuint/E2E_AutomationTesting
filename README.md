@@ -31,7 +31,7 @@ $npm run test
 ```
 or 
 ```bash
-gulp test
+$gulp test
 ```
 
 ## reporter
